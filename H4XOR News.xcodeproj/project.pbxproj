@@ -11,6 +11,7 @@
 		97E9FDEC27E01BE9009D0BDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E9FDEB27E01BE9009D0BDB /* ContentView.swift */; };
 		97E9FDEE27E01BEB009D0BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E9FDED27E01BEB009D0BDB /* Assets.xcassets */; };
 		97E9FDF127E01BEB009D0BDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E9FDF027E01BEB009D0BDB /* Preview Assets.xcassets */; };
+		97E9FDF927E0215E009D0BDB /* NetworkMaanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E9FDF827E0215E009D0BDB /* NetworkMaanager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		97E9FDEB27E01BE9009D0BDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97E9FDED27E01BEB009D0BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97E9FDF027E01BEB009D0BDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97E9FDF827E0215E009D0BDB /* NetworkMaanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMaanager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		97E9FDE827E01BE9009D0BDB /* H4XOR News */ = {
 			isa = PBXGroup;
 			children = (
+				97E9FDF727E02132009D0BDB /* Models */,
 				97E9FDE927E01BE9009D0BDB /* H4XOR_NewsApp.swift */,
 				97E9FDEB27E01BE9009D0BDB /* ContentView.swift */,
 				97E9FDED27E01BEB009D0BDB /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				97E9FDF027E01BEB009D0BDB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97E9FDF727E02132009D0BDB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				97E9FDF827E0215E009D0BDB /* NetworkMaanager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				97E9FDEC27E01BE9009D0BDB /* ContentView.swift in Sources */,
 				97E9FDEA27E01BE9009D0BDB /* H4XOR_NewsApp.swift in Sources */,
+				97E9FDF927E0215E009D0BDB /* NetworkMaanager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
